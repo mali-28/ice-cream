@@ -14,7 +14,7 @@
   justify-content: space-between;
 } 
 .container{
-  width: 1100px;
+  width: 90vw;
   margin: 0 auto !important;
 }
 .header{
@@ -30,6 +30,7 @@
   display: inline;
   padding: 20px;
   font-size: 20px;
+  color: rgb(214, 38, 79) !important;
 }
 .header div img{
   margin-top: 20px;
@@ -104,3 +105,35 @@
   line-height: 70px;
   font-size: 20px;
 }
+
+.w-25{
+  width: 15%;
+}
+
+@media screen and (max-width : 800px ){
+.header{
+    display: block;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.header-ul{
+  display: none;
+}
+
+.header:hover  .header-ul{
+  display: block !important;
+}
+.header:hover{
+  height: auto;
+}
+.header:hover .header-ul li {
+  display: block;
+  padding: 0 ;
+}
+.w-25{
+  width: 40%;
+}
+} 
