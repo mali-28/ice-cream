@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-grey{
+  background-color: #dfd8d8;
+}
+.flex{
+  display: flex;
+} 
+.justify-between{
+  justify-content: space-between;
+} 
+.container{
+  width: 1100px;
+  margin: 0 auto !important;
+}
+.header{
+ height: 80px;
+ line-height: 80px;
+}
+.header-ul{
+  list-style: none;
+
+
+}
+.header-ul li {
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+}
+.header div img{
+  margin-top: 20px;
+}
+
+
+.content{
+  background: url("./bg-home.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+}
+
+.content-flex{
+  height: 90%;
+  display: flex;
+  align-items:flex-end;
+  justify-content:flex-end;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: pink;
+}
+
+.absolute{
+  position: absolute;
+  background-color: rgb(231, 4, 95);
+  right:-8px;
+  top:-5px;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+.relative{
+  position: relative;
+  background-color: #ffdf0d;
+}
+
+.justify-space-evenly{
+  justify-content: space-evenly;
+}
+
+.banner{
+  background-color: rgb(215, 215, 47);
+  padding: 30px 0;
+}
+
+.banner div {
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+.banner i {
+  font-size: 50px;
+}
+
+.banner p {
+  font-size: 30px;
+}
+
+.banner hr {
+  margin: 15px 0
+}
+
+.footer {
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+}
