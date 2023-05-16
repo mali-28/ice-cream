@@ -5,7 +5,7 @@
 }
 
 .bg-grey{
-  background-color: #dfd8d8;
+  background-color: #eae7e8;
 }
 .flex{
   display: flex;
@@ -136,4 +136,37 @@
 .w-25{
   width: 40%;
 }
+.sm-flex-wrap{
+  flex-wrap: wrap;
+}
 } 
+
+.justinfy-space-between{
+  justify-content: space-between;
+}
+.new-project-section{ 
+  background-color:#eae7e8;
+}
+.new-project-section h1 {
+  color: #7A6666;
+  font-size: 18px;
+  padding: 47px 0 18px;
+  text-transform: uppercase;
+}
+.new-project-section h2 {
+  color: #E32A62;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  padding: 0 0 26px;
+  text-align: left;
+}
+
+.new-project-section p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-spacing: 20px;
+}
+
+.new-project-section a {
+  color: #7a6666
+}
